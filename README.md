@@ -1,6 +1,6 @@
 <html>
     <body>
-        <img src="https://drive.google.com/file/d/1BmFBc12Cy7a0Fm7rAZKd9eanbV3mjsCk/">
+        <img src="https://i.ibb.co/kKwN4wz/logo.png">
         <h1>Company Profile HMIF</h1>
         <p>Company profile HMIF is created to showing up what is HMIF have. Build with framework called laravel, make this website secure, responsive, and easy to deploy.</p>
         <p>This website will have many features. I hope there will be a lot of feature later on depends on the people who develop this website. The features of this web will have :</p>
