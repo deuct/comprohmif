@@ -1,7 +1,7 @@
 <html>
     <body>
         <center>
-        <img src="https://i.ibb.co/kKwN4wz/logo.png" height="300px">
+        <img src="https://i.ibb.co/kKwN4wz/logo.png" height="300px" style="margin-left: 50%;">
         </center>
         <h1>Company Profile HMIF</h1>
         <p>Company profile HMIF is created to showing up what is HMIF have. Build with framework called laravel, make this website secure, responsive, and easy to deploy.</p>
