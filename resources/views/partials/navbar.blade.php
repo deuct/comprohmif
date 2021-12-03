@@ -1,4 +1,4 @@
-<nav id="navbar_top" class="navbar navbar-expand-lg navbar-light">
+<nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark">
   <div class="container">
     <a class="navbar-brand" href="#">HMIF</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,10 +15,13 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Proker</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Github</a>
+        </li>
       </ul>
       <ul class="navbar-nav me-0 mb-lg-0">
         <li class="nav-item">
-            <a href="#" class="nav-link">Contact Us</a>
+            <button type="button" class="btn btn-primary btn-cntc">Contact Us</button>
         </li>
       </ul>
     </div>

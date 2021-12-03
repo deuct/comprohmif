@@ -5,9 +5,6 @@
 }
 
 /* Navbar */
-.coloring-nav {
-    color: white !important;
-}
 .navbar {
     z-index: 100;
     /* position: sticky; */
@@ -17,28 +14,87 @@
     color: white;
 }
 
-.navbar-light {
+.navbar-dark {
     /* background: rgba(255, 255, 255, 0.055); */
     background: none;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link {
     color: white;
     letter-spacing: 0.1rem;
     font-size: 1.1rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 550;
     margin-right: 10px;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-    color: #ddd;
+/* header */
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
 }
 
-/* header */
-.header .img-fluid {
+.header-fill {
+    z-index: 5;
+}
+
+.header-fill img {
+    padding: 5px;
+}
+
+.header-fill .kata {
+    color: white;
+}
+
+.header-fill .kata p {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+/* .header .img-fluid {
     position: absolute;
     top: 0;
     z-index: 1;
     width: 100%;
+    height: 100vh;
+} */
+/* .header .img-logo {
+    margin-top: 30vh;
+    margin-left: 10vh;
+    padding: 0;
+} */
+
+/* .header .kata {
+    display: inline-block;
+}
+
+.header .kata h1,
+.header .kata p {
+    position: absolute;
+    margin-left: -25px;
+}
+
+.header .kata h1 {
+    margin-top: -35px;
+}
+
+.header .kata p {
+    margin-top: 30px;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+} */
+
+/* Button */
+.btn-cntc {
+    border-radius: 2px;
+    padding: 8px 25px;
+    background-color: rgb(218, 140, 72);
+    border: none;
+}
+
+.btn-cntc:hover {
+    background-color: rgb(224, 152, 89);
 }

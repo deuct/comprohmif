@@ -31,13 +31,36 @@
                     document.getElementById('navbar_top').classList.add('fixed-top');
                     navbar_height = document.querySelector('.navbar').offsetHeight;
                     document.body.style.paddingTop = navbar_height + 'px';
-                    $(".navbar-light").css("background-color", "white");
-                    // $(".navbar-light .navbar-nav .nav-link").css("color", "black"));
-                    document.querySelectorAll('.nav-link').add('.coloring-nav');
+                    $(".navbar-dark").css("background-color", "rgba(244, 245, 246, 1)");
+                    // document.querySelectorAll('.nav-link').add('.coloring-nav');
+                    var x = document.querySelectorAll('.nav-link');
+                    for (var i = 0; i < x.length; i++) {
+                        x[i].style.color = "#232323";
+                    }
+                    var navBrand = document.querySelector('.navbar-brand');
+                    navBrand.style.color = "#232323";
+
+                    $(".nav-link").hover(function() {
+                        $(this).css("color", "gray");
+                    }, function() {
+                        $(this).css("color", "#232323");
+                    })
                 } else {
                     document.getElementById('navbar_top').classList.remove('fixed-top');
                     document.body.style.paddingTop = '0';
-                    $(".navbar-light").css("background-color", "");
+                    $(".navbar-dark").css("background-color", "");
+                    var x = document.querySelectorAll('.nav-link');
+                    for (var i = 0; i < x.length; i++) {
+                        x[i].style.color = "white";
+                    }
+                    var navBrand = document.querySelector('.navbar-brand');
+                    navBrand.style.color = "white";
+
+                    $(".nav-link").hover(function() {
+                        $(this).css("color", "gray");
+                    }, function() {
+                        $(this).css("color", "white");
+                    })
                 }
             });
         });
