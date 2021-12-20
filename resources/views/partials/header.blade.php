@@ -1,15 +1,13 @@
 <div class="header"></div>
 <div class="container">
-        <div class="row">
-                {{-- <img src="{{ asset('images/ws_front.jpeg') }}" class="img-fluid"> --}}
-                <div class="header-fill d-flex mt-5">
-                        <div class="col-lg-4 me-1 mx-auto">
-                                <img src="{{ asset('images/logo_hmif.png') }}" class="img-logo" height="300px">
-                        </div>
-                        <div class="col-lg-6 kata mx-auto">
-                                <h1>Himpunan Mahasiswa Informatika</h1>
-                                <p>Institut Teknologi Indonesia</p>
-                        </div>
+        <div class="row my-auto" id="headers">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="{{ asset('images/logo_hmif.png') }}" class="img-logo mx-auto">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h1>Himpunan Mahasiswa Informatika</h1>
+                        <p>Institut Teknologi Indonesia</p>
+                        <button type="button" class="btn btn-primary btn-header">More About Us</button>
                 </div>
         </div>
 </div>

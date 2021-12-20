@@ -36,56 +36,24 @@
     height: 100vh;
     background-color: black;
     color: white;
+    z-index: -1;
 }
 
-.header-fill {
-    z-index: 5;
+#headers {
+    height: 100vh;
+    padding: 20% 5px;
 }
 
-.header-fill img {
-    padding: 5px;
-}
-
-.header-fill .kata {
+#headers h1,
+#headers p {
     color: white;
 }
 
-.header-fill .kata p {
+#headers p {
     font-size: 2rem;
     letter-spacing: 0.2rem;
+    margin-top: -5px;
 }
-/* .header .img-fluid {
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    height: 100vh;
-} */
-/* .header .img-logo {
-    margin-top: 30vh;
-    margin-left: 10vh;
-    padding: 0;
-} */
-
-/* .header .kata {
-    display: inline-block;
-}
-
-.header .kata h1,
-.header .kata p {
-    position: absolute;
-    margin-left: -25px;
-}
-
-.header .kata h1 {
-    margin-top: -35px;
-}
-
-.header .kata p {
-    margin-top: 30px;
-    font-size: 1.6rem;
-    letter-spacing: 0.1rem;
-} */
 
 /* Button */
 .btn-cntc {
@@ -97,4 +65,53 @@
 
 .btn-cntc:hover {
     background-color: rgb(224, 152, 89);
+}
+
+#headers .btn-header {
+    background-color: rgb(218, 140, 72);
+    border: none;
+    padding: 10px 25px;
+}
+
+#headers .btn-header:hover {
+    background-color: rgb(224, 152, 89);
+}
+
+/* Image */
+.img-logo {
+    width: 350px;
+    margin-left: 25%;
+}
+
+/* Visimisi */
+.vismis {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.visi {
+    border-right: 2px solid gray;
+}
+
+/* Article */
+#article {
+    margin-top: 100px;
+}
+
+.desc {
+    margin-bottom: 200px;
+}
+
+.aboutus::after {
+    content: "";
+    border-bottom: 2px solid rgba(3, 53, 87, 0.863);
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+/* Mobile Screen */
+@media (max-width: 576px) {
+    #headers {
+        margin-top: 35px;
+    }
 }
