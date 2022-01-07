@@ -25,6 +25,8 @@
         @yield('container')
     </div>
 
+</div>
+
     @include('partials.footer')
 
     {{-- Scroll navbar change script --}}

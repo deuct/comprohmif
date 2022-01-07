@@ -21,7 +21,7 @@
 
     @include('partials.facility')
 
-    @include('partials.alumnus')
+    {{-- @include('partials.alumnus') --}}
 
     @include('partials.work')
 @endsection

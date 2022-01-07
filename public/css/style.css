@@ -95,18 +95,66 @@
 /* Article */
 #article {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .desc {
     margin-bottom: 200px;
 }
 
+.card .card-title {
+    text-align: center;
+    font-weight: 550;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+.btn-readmore {
+    display: block;
+    width: 110px;
+    margin: 15px auto;
+    background: rgb(224, 152, 89);
+    border: none;
+}
+
+.btn-readmore:hover {
+    background: sandybrown;
+}
+
+.btn-proker {
+    font-size: 1.2rem;
+    padding: 5px 15px;
+}
+
+.btn-proker:hover {
+    color: rgb(218, 140, 72);
+}
+
+/* About Us */
 .aboutus::after {
     content: "";
     border-bottom: 2px solid rgba(3, 53, 87, 0.863);
     width: 100px;
     display: block;
     margin: auto;
+}
+
+/* Work */
+.btn-make {
+    background: sandybrown;
+    border: none;
+    border-radius: 2px !important;
+}
+
+.btn-make:hover {
+    background: rgb(218, 140, 72);
+}
+
+/* Footer */
+#footer {
+    background: #1b0c4f;
+    margin-top: -5px;
+    color: white;
 }
 
 /* Mobile Screen */
