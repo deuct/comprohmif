@@ -2,9 +2,10 @@
 
 @section('container')
     <div class="row">
-        <div class="col-12">
-        <h1 class="text-center aboutus">About Us</h1>
-        <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut asperiores nam quam deleniti corporis temporibus deserunt ad id, odit, rerum ea alias tempora nulla dicta reprehenderit est at veniam similique consequatur voluptatum ab maiores? Velit sequi, beatae, animi libero dolorem illum reiciendis totam, iure cumque et quisquam? Impedit dolor ducimus cupiditate assumenda distinctio ratione nobis odit. Obcaecati consectetur nobis veritatis quasi, dicta voluptatem sint? Magnam animi quos iure iste error. Officiis neque itaque explicabo quis repellendus natus facilis incidunt similique, cupiditate delectus sunt inventore, voluptatem laboriosam. Voluptates tenetur dolorum nam sunt excepturi, sequi sed vel, labore beatae voluptatibus repellendus aliquam fuga numquam distinctio cupiditate. Repudiandae odio maxime eveniet tempora? Nobis consequuntur laborum, voluptates adipisci reprehenderit maxime ipsam deleniti. Magnam debitis maiores beatae enim, neque praesentium. Eum libero omnis quod numquam quae aliquam, quas cupiditate sunt pariatur necessitatibus consequatur totam laudantium placeat eligendi ratione a natus vel quaerat delectus ut repudiandae.</p>
+        <div class=" aboutus col-lg-12 col-md-12">
+        <h1 class="text-center aboutus-title">About Us</h1>
+        <p class="mt-3 justify-content-center">HMIF Adalah organisasi mahasiswa informatika Institut Teknologi Indonesia. HMIF memiliki workshop yang bertempat di dalam kampus Institut Teknologi Indonesia yang beralamat di Jl. Puspitek, Setu, Kec. Serpong, Kota Tangerang Selatan, Banten 15314. Organisasi mahasiswa ini bertujuan untuk membentuk softskill maupun hardskill dari mahasiswa Informatika ITI. Segi softskill yang di asah antara lain yaitu keorganisasian,proposal, birokrasi, dsb. Segi hardskill yang di asah antara lain yaitu pengadaan pelatihan tentang UI/UX, Database, Web design, dsb.
+        </p>
     </div>
     <div class="row vismis">
         <div class="col-lg-6 visi">

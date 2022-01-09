@@ -73,14 +73,14 @@
 }
 
 #headers p {
-    font-size: 2rem;
+    font-size: 1.4rem;
     letter-spacing: 0.2rem;
     margin-top: -5px;
 }
 
 /* waves-top */
 .waves-top {
-    margin-top: -470px;
+    margin-top: -430px;
 }
 
 /* Button */
@@ -161,13 +161,22 @@
 }
 
 /* About Us */
-.aboutus::after {
+.aboutus {
+    width: 90%;
+    margin: auto;
+    display: block;
+    background-color: #f2f2f2;
+}
+
+.aboutus .aboutus-title {
+}
+/* .aboutus::after {
     content: "";
     border-bottom: 2px solid rgba(3, 53, 87, 0.863);
     width: 100px;
     display: block;
     margin: auto;
-}
+} */
 
 /* Work */
 .btn-make {
@@ -195,6 +204,8 @@
     .waves-top {
         margin-top: -210px;
     }
+
+    /* header */
     .img-logo {
         display: block;
         margin-left: auto;
